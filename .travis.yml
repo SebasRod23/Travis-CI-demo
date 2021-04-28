@@ -5,5 +5,7 @@ deploy:
   provider: heroku
   api_key: 1b4810ea-1c83-4ca5-a27b-9d8581efd768
   app: travis-ci-calidad
+  on:
+    branch: main
 before_install:
   - chmod +x mvnw
